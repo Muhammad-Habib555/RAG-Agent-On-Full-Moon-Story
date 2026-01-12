@@ -13,8 +13,8 @@ This is a **ChatGPT-style RAG chatbot** built with:
 ---
 
 ## How to run project
-1.uv add -r requirements.py
-2.uv run ingest.py
-3.uvicorn backend.app:app --reload
-4.streamlit run streamlit_app.py
+- **1.uv add -r requirements.py**
+- **2.uv run ingest.py**
+- **3.uvicorn backend.app:app --reload**
+- **4.streamlit run streamlit_app.py**
 
