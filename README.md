@@ -59,14 +59,22 @@ RAG-Agent-On-Full-Moon-Story/
 ├─ uv.lock
 └─ test/
     └─ test_file.py
----
 
-## 📂 How to run project
+## 📂 How to Run Project
 
- ```text
-1.uv add -r requirements.py
-2.uv run ingest.py
-3.uvicorn backend.app:app --reload
-4.streamlit run streamlit_app.py
-============
+Follow these commands step-by-step:
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run data ingestion
+python ingest.py
+
+# 3. Start backend server
+uvicorn backend.app:app --reload
+
+# 4. Launch Streamlit frontend
+streamlit run streamlit_app.py
+
 
