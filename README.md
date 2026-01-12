@@ -61,7 +61,7 @@ RAG-Agent-On-Full-Moon-Story/
     └─ test_file.py
 ---
 
-## How to run project
+## 📂 How to run project
 
  ```text
 1.uv add -r requirements.py
