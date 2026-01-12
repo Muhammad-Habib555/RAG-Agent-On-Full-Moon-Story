@@ -60,21 +60,20 @@ RAG-Agent-On-Full-Moon-Story/
 └─ test/
     └─ test_file.py
 
-## 📂 How to Run Project
-
+# How to Run Project
+---
 Follow these commands step-by-step:
 
-```bash
-# 1. Install dependencies
+1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Run data ingestion
+2. Run data ingestion
 python ingest.py
 
-# 3. Start backend server
+3. Start backend server
 uvicorn backend.app:app --reload
 
-# 4. Launch Streamlit frontend
+4. Launch Streamlit frontend
 streamlit run streamlit_app.py
 
 
