@@ -62,6 +62,8 @@ RAG-Agent-On-Full-Moon-Story/
 ---
 
 ## How to run project
+
+ ```text
 1.uv add -r requirements.py
 2.uv run ingest.py
 3.uvicorn backend.app:app --reload
