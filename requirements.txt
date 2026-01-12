@@ -1,0 +1,24 @@
+# Core LangChain and OpenAI
+langchain==0.1.*
+langchain-openai
+
+# PDF loading & embeddings
+pypdf
+faiss-cpu
+
+# Backend
+fastapi
+uvicorn
+python-dotenv
+
+# Frontend
+streamlit
+
+# Utilities
+requests
+
+#if you want to ensure quality code then you can use these
+pytest
+ruff 
+mypy 
+black

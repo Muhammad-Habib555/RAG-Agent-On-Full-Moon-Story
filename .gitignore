@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Vector DB / embeddings
+vector_db/
+*.faiss
+*.pkl
+
+# Data
+data/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
