@@ -2,7 +2,6 @@
 
 ![Project Banner](https://img.shields.io/badge/Project-RAG--Agent-blue?style=for-the-badge)  
 ![Python Version](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge)  
-![Streamlit](https://img.shields.io/badge/Framework-Streamlit-green?style=for-the-badge)
 
 ---
 
